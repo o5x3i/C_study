@@ -7,7 +7,7 @@ int main()
 	int i;
 
 	for (i = 0; i <= 7; i++) {
-		printf("ÇÐÁ¡À» ÀÔ·ÂÇÏ¼¼¿ä :");
+		printf("í•™ì ì„ ìž…ë ¥í•˜ì„¸ìš” :");
 		scanf_s("%f", &sub[i]);
 	}
 
@@ -17,7 +17,7 @@ int main()
 			grade += sub[i];
 		}
 
-		printf("ÇÐÁ¡ Æò±Õ : %f", grade / 8);
+		printf("í•™ì  í‰ê·  : %f", grade / 8);
 
 
 		return 0;
